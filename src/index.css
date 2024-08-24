@@ -7,13 +7,19 @@
   width: 100%;
   overflow: hidden;
   font-size: 12px;
-  white-space: nowrap;
   text-overflow: ellipsis;
+  text-align: right;
 }
 .notes-month {
   font-size: 20px;
-  text-align: center;
+  text-align: right;
 }
 .notes-month section {
   font-size: 20px;
+}
+.ant-picker-panel{
+  overflow-x: scroll;
+}
+.ant-picker-date-panel, .ant-picker-month-panel{
+  min-width: 600px
 }

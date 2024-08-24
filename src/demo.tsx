@@ -101,8 +101,7 @@ const App: React.FC = () => {
     if (info.type === "month") return monthCellRender(current);
     return info.originNode;
   };
-console.log(customViVN)
-  return <Calendar cellRender={cellRender} locale={customViVN} />;
+  return <Calendar cellRender={cellRender} locale={customViVN}/>;
 };
 
 export default App;
