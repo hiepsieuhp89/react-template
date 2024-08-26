@@ -1,25 +1,20 @@
-.events {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.text{
+  font-size: 50px;
+  color: red
 }
-.events .ant-badge-status {
-  width: 100%;
-  overflow: hidden;
-  font-size: 12px;
-  text-overflow: ellipsis;
-  text-align: right;
+.text2{
+  font-size: 30px;
+  color: blue
 }
-.notes-month {
-  font-size: 20px;
-  text-align: right;
+
+.card-flex{
+  display: flex;
+  flex-wrap: wrap;
 }
-.notes-month section {
-  font-size: 20px;
-}
-.ant-picker-panel{
-  overflow-x: scroll;
-}
-.ant-picker-date-panel, .ant-picker-month-panel{
-  min-width: 600px
+.card{
+  display: flex;
+  font-size: 30px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid black;
 }
