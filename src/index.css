@@ -18,3 +18,24 @@
   margin: 10px;
   border: 1px solid black;
 }
+
+body{
+  padding: 0;
+  margin: 0;
+}
+.ant-layout{
+  height: 100vh;
+}
+.btn-dangxuat{
+  color: rgb(255, 65, 65)
+}
+.active-status{
+  color: rgb(0, 134, 0);
+  font-weight: bold;
+}
+.disable-status{
+  color: red;
+}
+.aassdsd{
+  
+}

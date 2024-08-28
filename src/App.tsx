@@ -1,8 +1,8 @@
 import React from "react";
-import "./index.css";
+import MyModal from "./components/MyModal";
 import Text1 from "./components/Text1";
-import Text2 from "./components/Text2";
-import MyButton from "./components/MyButton";
+import "./index.css";
+import ComputerList from "./components/ComputerList";
 
 const App = () => {
   const hoTen = "Maverick 999";
@@ -113,9 +113,7 @@ const App = () => {
 
   return (
     <>
-      <div className="card-flex">{sinhViens.map(hienThiHello)}</div>
-      <Text2 />
-      <MyButton />
+      <ComputerList />
     </>
   );
 };
